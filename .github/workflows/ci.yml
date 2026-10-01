@@ -9,7 +9,7 @@ jobs:
   docker:
     uses: szabolcsszaraz/platform-ci/.github/workflows/docker-build.yml@v1
     with:
-      image_name: elfonator/ci-test-app
+      image_name: szabokasz/ci-test-app
       dockerfile: ./Dockerfile
       context: .
       tag: latest
